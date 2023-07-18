@@ -31,7 +31,7 @@ import com.myspring.pro30.board.vo.ArticleVO;
 import com.myspring.pro30.board.vo.ImageVO;
 import com.myspring.pro30.member.vo.MemberVO;
 
-@Controller("boardController")
+//@Controller("boardController")
 public class BoardControllerImpl implements BoardController {
 	private static final String ARTICLE_IMAGE_REPO = "C:\\board\\article_image";
 	@Autowired

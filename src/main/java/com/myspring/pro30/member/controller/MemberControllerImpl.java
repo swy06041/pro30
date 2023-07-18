@@ -18,7 +18,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import com.myspring.pro30.member.service.MemberService;
 import com.myspring.pro30.member.vo.MemberVO;
 
-@Controller("memberController")
+//@Controller("memberController")
 public class MemberControllerImpl implements MemberController {
 	@Autowired
 	private MemberService memberService;
